@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: pink;
+}
+    
+    
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    
+    width:100%;
+}
+/* header */
+
+.container-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:70px;;
+    background-image: linear-gradient(187deg,#feada6 10%, #f5efef 100%);
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.4);
+    /*padding:20px;*/
+    width:40%;
+    border-radius: 50px;
+    
+
+
+}
+.container-content h1{
+    margin-top: 20px;
+}
+.container-content p{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    margin-top: 40px;
+}
+/*player content*/
+
+   
+
+
+.player-1-content img{
+    height:150px;
+    padding: 20px;
+
+   
+}
+
+.player-1-content p{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+    
+}
+.dice-container{
+    display: flex;
+    font-weight:bold;
+}
+.player-content-div img{
+    width:100%;
+    margin-top: 10px;
+    
+
+}
+
+/*button*/
+.button-content{
+    margin-top: 25px;
+
+}
+.button-content button{
+    width:140px;
+    height:45px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.button-content button:hover{
+    background-color: rgba(217,57,43,0.2);
+    transform: scale(1.21);
+    color: white;
+    font-family: emoji;
+    border:3px double red;
+}
+
+.edit-button{
+    margin-bottom: 20px;
+}
+
+/*responsive design*/
+
+/*medium screens (Tablets)*/
+@media (max-width: 1024px){
+    .container-content {
+        width:60%;
+        padding:15px;
+    }
+    .header h1 {
+        font-size: 2.5rem;
+    }
+    .button-content button{
+        width:130px;
+        height:40px;
+        font-size: 14px;
+    }
+}
+
+/*small screens (mobile devices)*/
+@media (max-width: 768px) {
+    .container{
+        height:auto;
+        padding:10px;
+        border-radius: 30px;
+
+    }
+    .header h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .player-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .player-content-div{
+        width:100px;
+        margin-bottom: 10px;
+    }
+    .player-content-div img{
+        width:80px;
+
+    }
+    .player-content-div p{
+        font-size: 18px;
+
+    }
+    .button-content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .button-content button{
+        width:120px;
+        height:40px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+    
+    
+
+
+
+
+
+
+
+  
+    
+
+
+
+   
+
